@@ -1,0 +1,10 @@
+#!/bin/bash
+#скрипт, который выполняет пункты 3,4,5,6,7,8,13
+echo "создаем папку mkdir folder"; mkdir folder; 
+echo "3 заходим в папку cd folder"; cd folder; 
+echo "4 создаем 3 папки mkdir 1_folder 2_folder 3_folder"; mkdir 1_folder 2_folder 3_folder
+echo "5 заходим в любую папку cd 1_folder"; cd 1_folder;
+echo "6 создать 5 файлов"; touch 1_txt.txt 2_txt.txt 3_txt.txt 1_json.json 2_json.json; 
+echo "7 создаем 3 папки mkdir 4_folder 5_folder 6_folder"; mkdir 4_folder 5_folder 6_folder;
+echo "8 вывести список содержимого папки"; ls
+echo "переместить любые 2 файла в любую папку"; mv 3_txt.txt 1_json.json 5_folder; ls
