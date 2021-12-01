@@ -1,0 +1,26 @@
+Linux terminal
+1 посмотреть где я:     		pwd;
+2 создать папку:        		mkdir (make dir) "название папки";
+3 зайти в папку:        		cd (change directory) "путь к директории";
+4 создать 3 папки:      		mkdir 1_folder 2_folder 3_folder;
+5 зайти в любую папку:  		cd 1_folder;
+6 создать 5 файлов:     		touch 1_txt.txt 2_txt.txt 3_txt.txt 1_json.json 2_json.json;
+7 создать 3 папки:      		mkdir 4_folder 5_folder 6_folder;
+8 вывести список содержимого папки:     ls(list);-l;-a;-al;
+9 открыть любой txt файл:		vim 1_txt.txt;
+10 написать любой текст в файл:		"2 создать папку:mkdir (make dir)";
+11 сохранить и выйти: 			:wq(write quite);
+12 выйти из папки на уровень выше:	cd ..;
+13 переместить любые 2 файла в любую	mv (move) (direct)1_txt.txt dir/2_txt.txt dir/1_folder/;
+другую папку
+14 копировать любые 2 файла в любую	cp (copy) (direct)3_txt.txt dir/1_json.json dir/2_folder/;
+другую папку
+15 найти файл по имени:			find -name "1_json.json";
+16 просмотреть содержимое в реальном	grep (global regular expression print) 'make dir' 1_txt.txt;
+времени:
+17 вывести несколько первых строк	head -n4;
+из txt:
+18 вывести несколько последних строк	tail -n4; (-f в реальном времени);
+из txt:	
+19 вывод содержимого длинного файла;	less -N dir/1_txt.txt;
+20 вывод даты и времени:		date +%c;
